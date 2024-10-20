@@ -1,0 +1,87 @@
+/* Resetting some browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2F33;
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    
+}
+
+/* header{
+    background-color: white;
+    padding: 20px;
+} */
+
+
+ header.h1{
+    color: black;
+    align-items: center;
+    background-color: white;
+
+} 
+
+h1 {
+    margin: 70px;
+    font-size: 2rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.badge {
+    background-color: #FF6363;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.score {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    font-size: 3rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.choice:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
